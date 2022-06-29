@@ -1,14 +1,16 @@
 # Final Project Oprec MCI 2022
   
-## Nama Aplikasi
-(deskripsikan aplikasi dan tujuannya)
+## Restaurant Queue App
+Aplikasi ini untuk melayani antrian pelanggan pada sebuah restoran
 
 ## Fitur Aplikasi
 List fitur pada aplikasi ini adalah sebagai berikut.
-1. fitur pertama
-2. fitur kedua
-3. ...
-4. ...
+1. Menyimpan informasi daftar makanan
+2. Menambahkan makanan baru
+3. Mengedit dan menghapus makanan
+4. Menampilkan daftar menu
+5. Menampilkan antrian pesanan
+6. Menyimpan daftar transaksi
 
 ## Tampilan Aplikasi
 (screenshot fitur aplikasi)
