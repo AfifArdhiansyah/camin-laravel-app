@@ -60,7 +60,7 @@ Jika ingin menambahkan pesanan, user dapat menekan tombol "Add" pada menu yang d
 Untuk mencatat pesanan, user menekan tombol "Evaluate" lalu memasukkan nama pelanggan beserta catatan (opsional)
 <br />
 <br />
-![image](https://user-images.githubusercontent.com/87472849/176474885-2a3c284d-932d-4a16-966a-96cdd125ac4e.png)
+![image](https://user-images.githubusercontent.com/87472849/176483020-2d1304c6-4e9f-4bc5-8410-f7c8945e2a31.png)
 
 ### Fitur 5: Menampilkan antrian pesanan
 Tekan tombol "Submit" pada halaman modal "Evaluate", maka pesanan akan tampil di halaman "Queue"
