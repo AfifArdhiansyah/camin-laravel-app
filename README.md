@@ -37,8 +37,9 @@ Tampilan halaman website mengedit informasi suatu makanan:
 <br />
 <br />
 ![image](https://user-images.githubusercontent.com/87472849/176473742-2964b468-0a9f-494d-8b14-8aa7be3a86ee.png)
-
-Untuk menghapus makanan dengan menekan tombol delete pada halaman "Edit"
+<br />
+<br />
+Untuk menghapus makanan dengan menekan tombol "Delete" pada halaman "Edit"
 
 ### Fitur 4: Menampilkan daftar menu
 Tampilan daftar menu terdapat pada halaman "Menu" sebagai berikut:
