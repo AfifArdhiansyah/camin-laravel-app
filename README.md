@@ -106,8 +106,19 @@ Sekarang pesanan Sofyan sudah muncul di aplikasi Tenant. Karena Sofyan memesan m
 <img width="199" alt="image" src="https://user-images.githubusercontent.com/87472849/185637129-ed27de8b-5dd0-449b-b5df-585ffc08098c.png">
 <img width="199" alt="image" src="https://user-images.githubusercontent.com/87472849/185637341-6147ef6d-6812-4abb-9898-b9057e010507.png">
 
+### Fitur 9: Melihat history pesanan yang telah selesai
+Jika pesanan Customer sudah diantar, maka Tenant dapat mengatur queue di aplikasi sehingga status pesanan tersebut berubah menjadi served. Tenant dapat menggeser ke kiri pesanan mana yang sudah diantar seperto berikut.
+</br></br>
+<img width="199" alt="image" src="https://user-images.githubusercontent.com/87472849/185666166-5fa1d7cc-bafd-4e50-a484-875a2d5f64e8.png">
+  <img width="199" alt="image" src="https://user-images.githubusercontent.com/87472849/185666229-26b4af5a-8ba5-4cd7-a29e-523dfdd871f5.png">
+</br>
+Jika dilihat di menu history aplikasi Tenant maupun di Kasir, maka akan muncul pesanan Sofyan yang telah selesai.
+</br></br>
+<img width="199" alt="image" src="https://user-images.githubusercontent.com/87472849/185666592-05a05454-54db-4bb6-a9c3-9f9fa036b32d.png">
+  <img width="203" alt="image" src="https://user-images.githubusercontent.com/87472849/185666661-2fca1616-0273-4bdb-a068-4c37b51a5fe1.png">
+</br>
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/87472849/185666741-05cdb60d-b3ac-466c-9ed6-eaf004dbb0cc.png">
 
-9. Melihat history pesanan yang telah selesai
 
 ## Desain Database
 Database pada Foodcourt Servics App ini memiliki 4 tabel dan relasi sebagai berikut
