@@ -50,6 +50,7 @@ class TenantApiController extends Controller
             }
             if($check){
                 $data['name'] = $objectT->name;
+                $data['trans_id'] = $objectT->id;
                 $data['note'] = $objectT->note;
                 array_push($queue, $data); 
             }           

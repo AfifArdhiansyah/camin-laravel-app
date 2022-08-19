@@ -102,7 +102,7 @@ class TransactionApiController extends Controller
         $find = Transaction::findOrFail($id);
 
         $find->update([
-            'served' => true
+            'served' => 1
         ]);
 
         if($find){

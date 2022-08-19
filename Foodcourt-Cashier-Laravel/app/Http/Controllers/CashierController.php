@@ -17,10 +17,7 @@ class CashierController extends Controller
     }
 
     public function history(){
-        $transactions = Transaction::where([
-            ['paid', '==', '1'],
-            ['served', '==', '1']
-        ])->get();
+        $transactions = Transaction::get();
         return view('history', compact('transactions'));
     }
 

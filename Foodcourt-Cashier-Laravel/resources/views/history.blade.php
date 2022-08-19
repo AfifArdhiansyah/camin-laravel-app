@@ -36,7 +36,7 @@
                 </thead>
                 <tbody>
                     @forelse ($transactions as $transaction)
-                        @if($transaction->paid == 0 || $transaction->served == 0)
+                        @if($transaction->paid == 1 && $transaction->served == 1)
                         <tr>
                             <th scope="row" class="align-middle">{{ $transaction->id }}</th>
                             <td class="align-middle">{{ $transaction->name }}</td>
