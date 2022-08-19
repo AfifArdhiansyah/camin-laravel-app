@@ -46,9 +46,57 @@ Selain itu Kasir juga dapat mengedit data Tenant
 </br>
 
 ### Fitur 4: Menyimpan daftar menu makanan
-5. Mengedit makanan oleh Tenant
-6. Melihat menu makanan yang tersedia di Foodcourt oleh Customer
-7. Melakukan pemesanan makanan oleh Customer
+Tenant log in dengan username dan password yang telah didaftarkan oleh Kasir
+</br></br>
+<img width="197" alt="image" src="https://user-images.githubusercontent.com/87472849/185624221-affb6c06-616b-4760-99c4-17aa668124ba.png">
+</br>
+Tampilan halaman utama di aplikasi Tenant seperti berikut
+</br></br>
+<img width="198" alt="image" src="https://user-images.githubusercontent.com/87472849/185624671-1b73bf10-e5a3-45cf-8aca-9fb9d205110f.png">
+</br>
+Jika Tenant menekan New Menu, maka akan menuju halaman Add New Menu
+</br></br>
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/87472849/185624870-b1c83ada-3f27-4034-9b88-bc0530196ddb.png">
+</br>
+
+### Fitur 5: Mengedit makanan oleh Tenant
+Jika Tenant menekan Menu, maka akan menuju halaman All Menu yang menampilkan daftar makananyang dijual Tenant tersebut
+</br></br>
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/87472849/185625154-7ef58cbc-4f44-4e37-abab-5d32da95a4d6.png">
+</br>
+Jika menekan list menu tersebut, maka akan menuju halaman Edit Menu
+</br></br>
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/87472849/185625398-072f5e70-ce91-4b2a-9f91-0cbc4809e388.png">
+</br>
+
+### Fitur 6: Melihat menu makanan yang tersedia di Foodcourt oleh Customer
+Customer akan menggunakan aplikasi yang berbeda. Tampilan ketika Customer membuka aplikasi adalah sebagai berikut.
+</br></br>
+<img width="196" alt="image" src="https://user-images.githubusercontent.com/87472849/185628468-2fce67d6-e947-4e4d-b4ca-b91297c3fd4a.png">
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/87472849/185631742-0995fc81-bbba-4a8c-a675-0ff24fb04f42.png">
+</br>
+Customer Juga dapat melihat Detail makanan jika menekan kartu menu
+</br></br>
+<img width="201" alt="image" src="https://user-images.githubusercontent.com/87472849/185631876-85a6a00e-426a-414c-b97a-04a5f22fbe85.png">
+</br>
+
+### Fitur 7: Melakukan pemesanan makanan oleh Customer
+Customer dapat memesan makanan yang diinginkan dengan memenekan tombol Order dan juga dapat mengatur jumlah yang dipesan
+</br></br>
+<img width="198" alt="image" src="https://user-images.githubusercontent.com/87472849/185632057-b154e11e-1721-41e2-8539-129d94791d6d.png">
+</br>
+Jika Customer menekan tombol checkout, maka akan menuju halaman Checkout seperti berikut.
+</br></br>
+<img width="199" alt="image" src="https://user-images.githubusercontent.com/87472849/185630525-b4cd3821-6afb-404c-b5bf-69d4a0038f40.png">
+</br>
+Dengan checkout tersebut, Customer memasukkan nama dan dapat menulis catatan jika perlu. Customer juga dapat memilih metode pembayaran. Jika Customer memilih Cashier, maka status Paid akan 'unpaid' di layar Kasir dan pesanan Customer tersebut belum muncul di halaman Queue Tenant hingga Customer membayar tagihan pesanan.
+</br></br>
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/87472849/185631455-fb87b93a-516b-496c-8279-4ccefd94ad32.png">
+
+
+
+
+
 8. Melihat daftar antrian pesanan oleh Tenant
 9. Melihat history pesanan yang telah selesai
 
