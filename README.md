@@ -109,3 +109,9 @@ Sekarang pesanan Sofyan sudah muncul di aplikasi Tenant. Karena Sofyan memesan m
 
 9. Melihat history pesanan yang telah selesai
 
+## Desain Database
+Database pada Foodcourt Servics App ini memiliki 4 tabel dan relasi sebagai berikut
+</br></br>
+<img width="349" alt="image" src="https://user-images.githubusercontent.com/87472849/185650510-7fbe3fca-fa92-4017-a136-4c2178261fcf.png">
+
+
