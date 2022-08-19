@@ -90,13 +90,22 @@ Jika Customer menekan tombol checkout, maka akan menuju halaman Checkout seperti
 <img width="199" alt="image" src="https://user-images.githubusercontent.com/87472849/185630525-b4cd3821-6afb-404c-b5bf-69d4a0038f40.png">
 </br>
 Dengan checkout tersebut, Customer memasukkan nama dan dapat menulis catatan jika perlu. Customer juga dapat memilih metode pembayaran. Jika Customer memilih Cashier, maka status Paid akan 'unpaid' di layar Kasir dan pesanan Customer tersebut belum muncul di halaman Queue Tenant hingga Customer membayar tagihan pesanan.
+</br>
+
+### Fitur 8: Melihat daftar antrian pesanan oleh Tenant
+Seperti yang terjadi di atas, Sofyan memilih pembayaran cash di kasir. Maka Sofyan harus membayar terlebih dahulu agar Tenant dapat nenyiapkan pesanan Sofyan. Berikut adalah tampilan layar kasir
 </br></br>
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/87472849/185631455-fb87b93a-516b-496c-8279-4ccefd94ad32.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/87472849/185633761-5851d8de-f066-4bca-ae45-d453fc3e6c2b.png">
+</br>
+Setelah Sofyan selesai membayar pesanannya, maka Kasir akan menekan tombol Done untuk pesanan Sofyan. Sehingga status pesanan Sofyan menjadi "paid" dan pesanannya akan masuk di Queue aplikasi Tenant.
+</br></br>
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/87472849/185634218-ad724e81-b194-470a-a2d9-d44c9013ec05.png">
+</br>
+Sekarang pesanan Sofyan sudah muncul di aplikasi Tenant. Karena Sofyan memesan makanan di dua Tenant yang berbeda, maka pesanan Sofyan muncul di kedua Tenant dengan masing-masing makanan yang dijual oleh Tenant.
+</br></br>
+<img width="199" alt="image" src="https://user-images.githubusercontent.com/87472849/185637129-ed27de8b-5dd0-449b-b5df-585ffc08098c.png">
+<img width="199" alt="image" src="https://user-images.githubusercontent.com/87472849/185637341-6147ef6d-6812-4abb-9898-b9057e010507.png">
 
 
-
-
-
-8. Melihat daftar antrian pesanan oleh Tenant
 9. Melihat history pesanan yang telah selesai
 
