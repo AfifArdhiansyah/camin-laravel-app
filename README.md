@@ -1,6 +1,6 @@
 # Final Project Oprec MCI 2022
   
-## Restaurant Queue App
+## Foodcourt Service App
 Aplikasi ini untuk melayani pemesanan makanan di Foodcourt
 
 ## Fitur Aplikasi
