@@ -21,7 +21,7 @@ List fitur pada aplikasi ini adalah sebagai berikut.
 Tampilan berikut merupakan view di sisi Kasir. Kasir dapat melihat daftar pesanan yang berlangsung berisi nama Customer, total biaya yang harus dibayar, dan kondisi apakah Customer sudah membayar, ataupun kondisi apakah makanan pesanan customer sudah selesai.
 </br>
 </br>
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/87472849/185619331-118a9bc9-6e30-4fe0-b7e7-816e8b6e748a.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/87472849/185667161-7f784816-d60b-4f69-bb3f-772f84e641c0.png">
 </br>
 Gambar di atas juga terdapat tombol Done yaitu untuk mengatur status Paid. Kasir menekan tombol tersebut jika Customer telah melakukan pembayaran di kasir
 
@@ -29,7 +29,7 @@ Gambar di atas juga terdapat tombol Done yaitu untuk mengatur status Paid. Kasir
 Transaksi yang sudah dibayar dan makanan sudah diantar, maka transaksi akan ditampilkan di tampilan History di sisi Kasir
 </br>
 </br>
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/87472849/185621186-bf06c945-0d47-412a-a9f9-3fe912bed760.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/87472849/185667299-9d56723b-c8bd-4de0-8aa6-4218fddd145c.png">
 
 ### Fitur 3: Menampilkan dan menyimpan data Tenant (Kios) yang berjualan di Foodcourt
 Di sisi kasir dapat melihat daftar Tenant yang berjualan di Foodcourt.
@@ -106,8 +106,19 @@ Sekarang pesanan Sofyan sudah muncul di aplikasi Tenant. Karena Sofyan memesan m
 <img width="199" alt="image" src="https://user-images.githubusercontent.com/87472849/185637129-ed27de8b-5dd0-449b-b5df-585ffc08098c.png">
 <img width="199" alt="image" src="https://user-images.githubusercontent.com/87472849/185637341-6147ef6d-6812-4abb-9898-b9057e010507.png">
 
+### Fitur 9: Melihat history pesanan yang telah selesai
+Jika pesanan Customer sudah diantar, maka Tenant dapat mengatur queue di aplikasi sehingga status pesanan tersebut berubah menjadi served. Tenant dapat menggeser ke kiri pesanan mana yang sudah diantar seperto berikut.
+</br></br>
+<img width="199" alt="image" src="https://user-images.githubusercontent.com/87472849/185666166-5fa1d7cc-bafd-4e50-a484-875a2d5f64e8.png">
+  <img width="199" alt="image" src="https://user-images.githubusercontent.com/87472849/185666229-26b4af5a-8ba5-4cd7-a29e-523dfdd871f5.png">
+</br>
+Jika dilihat di menu history aplikasi Tenant maupun di Kasir, maka akan muncul pesanan Sofyan yang telah selesai.
+</br></br>
+<img width="199" alt="image" src="https://user-images.githubusercontent.com/87472849/185666592-05a05454-54db-4bb6-a9c3-9f9fa036b32d.png">
+  <img width="203" alt="image" src="https://user-images.githubusercontent.com/87472849/185666661-2fca1616-0273-4bdb-a068-4c37b51a5fe1.png">
+</br>
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/87472849/185666741-05cdb60d-b3ac-466c-9ed6-eaf004dbb0cc.png">
 
-9. Melihat history pesanan yang telah selesai
 
 ## Desain Database
 Database pada Foodcourt Servics App ini memiliki 4 tabel dan relasi sebagai berikut
