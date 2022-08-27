@@ -13,23 +13,12 @@ class CheckoutScreen extends StatefulWidget{
 
 class _CheckoutScreenState extends State<CheckoutScreen> {
   final String urlGetFoodApi = 'http://192.168.0.22:8000/api/foods/all';
-  // final String urlNewTransactionApi = 'http://192.168.0.22:8000/api/create-transaction';
-
-  // Future<http.Response> postOrder(String name, [String note = ''] ) {
-  //   return http.post(Uri.parse(urlNewTransactionApi),
-  //     headers: <String, String>{
-  //       'Content-Type': 'application/json; charset=UTF-8',
-  //     },
-  //     body: jsonEncode(<String, dynamic>{
-  //       'name': name,
-  //       'note' : note,
-  //     }),
-  //   );
-  // }
 
   // final String rawUrl = 'http://192.168.1.19:8000/';
-  int totals = 0;
+  late int totals;
+  var requested = false;
   Future _getFoods() async{
+    totals = 0;
     var response = await http.get(Uri.parse(urlGetFoodApi));
     var foods = json.decode(response.body);
     List <Map> orderedFoods = [];
@@ -39,6 +28,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
         totals = (totals + value['price'] * widget.order[value['id'].toString()]) as int;
       }
     });
+    requested = true;
     return orderedFoods;
   }
 
@@ -79,14 +69,16 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                 borderRadius: BorderRadius.circular(10)
               ),
               child: FutureBuilder(
-                future: _getFoods(),
+                future: (!requested)? _getFoods() : null,
                   builder: (BuildContext context, AsyncSnapshot<dynamic> foods){
                     if(foods.hasData){
+                      // int? totals = 0;
                       return Column(
                         children: [
                           ListView.separated(
                             shrinkWrap: true,
                               itemBuilder: (BuildContext context, int index){
+                              // totals = (totals! + foods.data[index]['price'] * widget.order[foods.data[index]['id'].toString()]) as int?;
                               return Row(
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
